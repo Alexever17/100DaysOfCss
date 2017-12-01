@@ -15,11 +15,34 @@
     rel="stylesheet">
   </head>
   <body>
-    #empty
-
+    <div class="frame">
+      <div class="holdingblock" id="container">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
 
     <script>
-
+        var clickstate = true;
+        document.getElementById('container').addEventListener("click", function(){
+           if (clickstate) {
+               document.getElementsByClassName('line')[0].classList.add('ichi');
+               document.getElementsByClassName('line')[1].classList.add('ni');
+               document.getElementsByClassName('line')[2].classList.add('san');
+               clickstate = false;
+             } else {
+               document.getElementsByClassName('line')[0].classList.add('ichirevert');
+               document.getElementsByClassName('line')[1].classList.add('nirevert');
+               document.getElementsByClassName('line')[2].classList.add('sanrevert');
+               clickstate = true;
+               setTimeout(function(){
+                 document.getElementsByClassName('line')[0].classList.remove("ichi","ichirevert");
+                 document.getElementsByClassName('line')[1].classList.remove("ni", "nirevert");
+                 document.getElementsByClassName('line')[2].classList.remove("san", "sanrevert");
+               }, 1000);
+             }
+           });
     </script>
   </body>
 </html>

@@ -2,3 +2,100 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.frame {
+  transform: translate(25vw, 25vh);
+  width: 50vw;
+  height: 50vh;
+  background: #D40853;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 80px;
+  height: 1px;
+  border: 4px solid #07AD54;
+  border-radius: 5px;
+  background: #07AD54;
+  margin: 10px;
+  box-shadow: 1px 1px 0px white;
+}
+
+.ichi {
+  animation-name: ichi;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes ichi {
+    0% {}
+    50% {transform: translateY(19px);}
+    100% {transform: translate(1px, 19px) rotate(135deg);}
+}
+
+.ichirevert {
+  animation-name: ichirevert;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes ichirevert {
+    0% {transform: translate(1px, 19px) rotate(135deg);}
+    50% {transform: translateY(19px);}
+    100% {transform: translateY(0);}
+}
+
+.ni {
+  animation-name: ni;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes ni {
+    0% {}
+    100% {transform: scale(0.0);}
+}
+
+.nirevert {
+  animation-name: nirevert;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes nirevert {
+    0% {transform: scale(0.0);}
+    50% {transform: scale(0.0);}
+    100% {transform: scale(1.0);}
+}
+
+.san {
+  animation-name: san;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes san {
+    0% {}
+    50% {transform: translateY(-19px);}
+    100% {transform: translate(-1px, -19px) rotate(45deg);}
+}
+
+.sanrevert {
+  animation-name: sanrevert;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes sanrevert {
+    0% {transform: translate(-1px, -19px) rotate(45deg);}
+    50% {transform: translateY(-19px);}
+    100% {transform: translateY(0);}
+}
