@@ -1,0 +1,14 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 90vw;
+  height: 90vh;
+  background: radial-gradient(circle, white, black);
+  background-repeat: no-repeat;
+  background-position: center;
+}
