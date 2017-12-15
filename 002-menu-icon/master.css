@@ -25,7 +25,7 @@ body {
 
 .ichi {
   animation-name: ichi;
-  animation-duration: 1s;
+  animation-duration: 0.4s;
   animation-fill-mode: forwards;
   animation-timing-function: ease;
 }
@@ -38,7 +38,7 @@ body {
 
 .ichirevert {
   animation-name: ichirevert;
-  animation-duration: 1s;
+  animation-duration: 0.4s;
   animation-fill-mode: forwards;
   animation-timing-function: ease;
 }
@@ -51,7 +51,7 @@ body {
 
 .ni {
   animation-name: ni;
-  animation-duration: 0.5s;
+  animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease;
 }
@@ -63,7 +63,7 @@ body {
 
 .nirevert {
   animation-name: nirevert;
-  animation-duration: 1s;
+  animation-duration: 0.4s;
   animation-fill-mode: forwards;
   animation-timing-function: ease;
 }
@@ -76,7 +76,7 @@ body {
 
 .san {
   animation-name: san;
-  animation-duration: 1s;
+  animation-duration: 0.4s;
   animation-fill-mode: forwards;
   animation-timing-function: ease;
 }
@@ -89,7 +89,7 @@ body {
 
 .sanrevert {
   animation-name: sanrevert;
-  animation-duration: 1s;
+  animation-duration: 0.4s;
   animation-fill-mode: forwards;
   animation-timing-function: ease;
 }
