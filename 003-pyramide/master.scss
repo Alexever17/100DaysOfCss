@@ -1,0 +1,152 @@
+$back: #333;
+$frame: #1B053A;
+$shadow: #6A4E90;
+$sky: #0682D2;
+$sand: #FFBD5D;
+$pyramid: #BF7100;
+$pyramidDark: #683E00;
+$pyramidShadow: #4D3807;
+$sun: #FFF6A4;
+$bezierCenter: cubic-bezier(.4,0,.49,1);
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: $back;
+}
+
+h1 {
+    position: absolute;
+    font-size: 5vh;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    top: 5%;
+    color: white;
+}
+
+.frame {
+    width: 80vw;
+    height: 80vw;
+    max-width: 600px;
+    max-height: 600px;
+    position: absolute;
+    left: 0;
+    top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $frame;
+    box-shadow: 0px 0px 10px $shadow;
+}
+
+.center {
+    position: absolute;
+    background: $sky;
+    overflow: hidden;
+    width: 50vw;
+    height: 50vw;
+    max-width: (600px / 8 * 5);
+    max-height: (600px / 8 * 5);
+    clip-path: ellipse(50% 45% at 50% 50%);
+    animation: fade 4s infinite $bezierCenter;
+
+    .ground {
+        position: absolute;
+        top: 70%;
+        width: 100%;
+        height: 100%;
+        background: $sand;
+    }
+
+    .side-left {
+        background: $pyramid;
+        position: absolute;
+        left: 17%;
+        top: 30%;
+        width: 40%;
+        height: 40%;
+        clip-path: polygon(75% 0, 0% 100%, 100% 100%);
+        animation: pyramid 4s infinite $bezierCenter;
+    }
+
+    .side-right {
+        background: $pyramidDark;
+        position: absolute;
+        left: 46.9%;
+        top: 30%;
+        width: 40%;
+        height: 40%;
+        clip-path: polygon(0 0, 25% 100%, 100% 100%);
+        animation: pyramidr 4s infinite $bezierCenter;
+    }
+
+    .sun {
+        background: $sun;
+        position: absolute;
+        border-radius: 50%;
+        left: (50% - ( 15% / 2 ) );
+        top: 8%;
+        width: 15%;
+        height: 15%;
+        transform-origin: 50% 560%;
+        animation: sun 4s infinite $bezierCenter;
+    }
+
+    .shadow {
+        background: $pyramidShadow;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        top: 70%;
+        clip-path: polygon(17% 0, 50% 50%, 87% 0);
+        z-index: 99;
+        animation: shadow 4s infinite linear;
+    }
+}
+
+@keyframes fade {
+    0% {opacity: 0;}
+    3% {opacity: 0;}
+    25% {opacity: 1;}
+    75% {opacity: 1;}
+    97% {opacity: 0;}
+    100% {opacity: 0}
+}
+
+@keyframes sun {
+    0% {transform: rotate(-50deg);}
+    100% {transform: rotate(50deg);}
+}
+
+@keyframes pyramid {
+    0% {background: $pyramid}
+    // 90% {background: $pyramidDark}
+    100% {background: $pyramidDark}
+}
+
+@keyframes pyramidr {
+    0% {background: $pyramidDark}
+    10% {background: $pyramidDark}
+    100% {background: $pyramid}
+}
+
+@keyframes shadow {
+    0% {clip-path: polygon(17% 0, 100% 10%, 87% 0);}
+    10% {clip-path: polygon(17% 0, 90% 14%, 87% 0);}
+    20% {clip-path: polygon(17% 0, 80% 16.5%, 87% 0);}
+    30% {clip-path: polygon(17% 0, 70% 18%, 87% 0);}
+    40% {clip-path: polygon(17% 0, 60% 19.5%, 87% 0);}
+    50% {clip-path: polygon(17% 0, 50% 20%, 87% 0);}
+    60% {clip-path: polygon(17% 0, 40% 19.5%, 87% 0);}
+    70% {clip-path: polygon(17% 0, 30% 18%, 87% 0);}
+    80% {clip-path: polygon(17% 0, 20% 16,5%, 87% 0);}
+    90% {clip-path: polygon(17% 0, 10% 14%, 87% 0);}
+    100% {clip-path: polygon(17% 0, 0% 10%, 87% 0);}
+}
