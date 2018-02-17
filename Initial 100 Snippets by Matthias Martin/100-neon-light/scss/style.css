@@ -46,8 +46,8 @@
   left: 0;
   height: 120px;
   width: 6px;
-  -webkit-animation: flickr 6s ease-in-out 3.35s infinite alternate both;
-          animation: flickr 6s ease-in-out 3.35s infinite alternate both;
+  -webkit-animation: flickr 6s ease-in-out 0.13s infinite alternate both;
+          animation: flickr 6s ease-in-out 0.13s infinite alternate both;
 }
 
 .word .ee .top {
@@ -55,8 +55,8 @@
   right: 0;
   height: 6px;
   width: 60px;
-  -webkit-animation: flickr 6s ease-in-out 2.3s infinite alternate both;
-          animation: flickr 6s ease-in-out 2.3s infinite alternate both;
+  -webkit-animation: flickr 6s ease-in-out 2.02s infinite alternate both;
+          animation: flickr 6s ease-in-out 2.02s infinite alternate both;
 }
 
 .word .ee .middle {
@@ -64,8 +64,8 @@
   left: 9px;
   height: 6px;
   width: 50px;
-  -webkit-animation: flickr 6s ease-in-out 2.58s infinite alternate both;
-          animation: flickr 6s ease-in-out 2.58s infinite alternate both;
+  -webkit-animation: flickr 6s ease-in-out 2.83s infinite alternate both;
+          animation: flickr 6s ease-in-out 2.83s infinite alternate both;
 }
 
 .word .ee .bottom {
@@ -73,8 +73,8 @@
   right: 0;
   height: 6px;
   width: 60px;
-  -webkit-animation: flickr 6s ease-in-out 0.19s infinite alternate both;
-          animation: flickr 6s ease-in-out 0.19s infinite alternate both;
+  -webkit-animation: flickr 6s ease-in-out 1.93s infinite alternate both;
+          animation: flickr 6s ease-in-out 1.93s infinite alternate both;
 }
 
 .word .nn {
@@ -90,8 +90,8 @@
   left: 0;
   height: 120px;
   width: 6px;
-  -webkit-animation: flickr 6s ease-in-out 0.77s infinite alternate both;
-          animation: flickr 6s ease-in-out 0.77s infinite alternate both;
+  -webkit-animation: flickr 6s ease-in-out 1.47s infinite alternate both;
+          animation: flickr 6s ease-in-out 1.47s infinite alternate both;
 }
 
 .word .nn .middle {
@@ -103,8 +103,8 @@
           transform-origin: 3px 3px;
   -webkit-transform: rotate(62deg);
           transform: rotate(62deg);
-  -webkit-animation: flickr 6s ease-in-out 1.44s infinite alternate both;
-          animation: flickr 6s ease-in-out 1.44s infinite alternate both;
+  -webkit-animation: flickr 6s ease-in-out 1.98s infinite alternate both;
+          animation: flickr 6s ease-in-out 1.98s infinite alternate both;
 }
 
 .word .nn .right {
@@ -112,8 +112,8 @@
   right: 0;
   height: 120px;
   width: 6px;
-  -webkit-animation: flickr 6s ease-in-out 3.84s infinite alternate both;
-          animation: flickr 6s ease-in-out 3.84s infinite alternate both;
+  -webkit-animation: flickr 6s ease-in-out 2.19s infinite alternate both;
+          animation: flickr 6s ease-in-out 2.19s infinite alternate both;
 }
 
 .word .dd {
@@ -129,8 +129,8 @@
   left: 0;
   height: 120px;
   width: 6px;
-  -webkit-animation: flickr 6s ease-in-out 0.43s infinite alternate both;
-          animation: flickr 6s ease-in-out 0.43s infinite alternate both;
+  -webkit-animation: flickr 6s ease-in-out 0.37s infinite alternate both;
+          animation: flickr 6s ease-in-out 0.37s infinite alternate both;
 }
 
 .word .dd .right {
@@ -143,13 +143,13 @@
 }
 
 .word .dd .right .circleBox .circle {
-  -webkit-animation: flickr-circle 6s ease-in-out 0.32s infinite alternate both;
-          animation: flickr-circle 6s ease-in-out 0.32s infinite alternate both;
+  -webkit-animation: flickr-circle 6s ease-in-out 0.96s infinite alternate both;
+          animation: flickr-circle 6s ease-in-out 0.96s infinite alternate both;
 }
 
 .word .dd .right .dot {
-  -webkit-animation: flickr-dots 6s ease-in-out 0.32s infinite alternate both;
-          animation: flickr-dots 6s ease-in-out 0.32s infinite alternate both;
+  -webkit-animation: flickr-dots 6s ease-in-out 0.96s infinite alternate both;
+          animation: flickr-dots 6s ease-in-out 0.96s infinite alternate both;
 }
 
 .word .dd .right .circleBox {
