@@ -7,7 +7,8 @@
   margin-top: -200px;
   margin-left: -200px;
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   background: #2c3e50;
   color: #fff;
@@ -20,13 +21,18 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  perspective: 1000px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
 }
 
 .ikosaeder {
-  transform-style: preserve-3d;
-  transform: rotateX(-40deg) rotateY(-40deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: rotateX(-40deg) rotateY(-40deg);
+          transform: rotateX(-40deg) rotateY(-40deg);
+  -webkit-transition: all 3s ease-in-out;
   transition: all 3s ease-in-out;
   height: 280px;
   width: 160px;
@@ -34,7 +40,8 @@
 }
 
 .ikosaeder:hover {
-  transform: rotateX(-400deg) rotateY(-400deg);
+  -webkit-transform: rotateX(-400deg) rotateY(-400deg);
+          transform: rotateX(-400deg) rotateY(-400deg);
 }
 
 .ikosaeder:hover .side {
@@ -48,96 +55,118 @@
   border-style: solid;
   border-width: 0 80px 138.56px 80px;
   border-color: transparent transparent #eee transparent;
-  transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+  -webkit-transition: all 3s ease-in-out;
   transition: all 3s ease-in-out;
 }
 
 .ikosaeder .side-1 {
-  transform: translateZ(129.2px) rotateZ(90deg) rotateX(159.095deg);
+  -webkit-transform: translateZ(129.2px) rotateZ(90deg) rotateX(159.095deg);
+          transform: translateZ(129.2px) rotateZ(90deg) rotateX(159.095deg);
 }
 
 .ikosaeder .side-2 {
-  transform: translateZ(129.2px) rotateZ(-90deg) rotateX(159.095deg);
+  -webkit-transform: translateZ(129.2px) rotateZ(-90deg) rotateX(159.095deg);
+          transform: translateZ(129.2px) rotateZ(-90deg) rotateX(159.095deg);
 }
 
 .ikosaeder .side-3 {
-  transform: translateZ(-129.2px) rotateZ(90deg) rotateX(-159.095deg);
+  -webkit-transform: translateZ(-129.2px) rotateZ(90deg) rotateX(-159.095deg);
+          transform: translateZ(-129.2px) rotateZ(90deg) rotateX(-159.095deg);
 }
 
 .ikosaeder .side-4 {
-  transform: translateZ(-129.2px) rotateZ(-90deg) rotateX(-159.095deg);
+  -webkit-transform: translateZ(-129.2px) rotateZ(-90deg) rotateX(-159.095deg);
+          transform: translateZ(-129.2px) rotateZ(-90deg) rotateX(-159.095deg);
 }
 
 .ikosaeder .side-5 {
-  transform: rotateY(-90deg) translateZ(129.2px) rotateX(20.905deg);
+  -webkit-transform: rotateY(-90deg) translateZ(129.2px) rotateX(20.905deg);
+          transform: rotateY(-90deg) translateZ(129.2px) rotateX(20.905deg);
 }
 
 .ikosaeder .side-6 {
-  transform: rotateY(-90deg) translateZ(129.2px) rotateX(159.095deg);
+  -webkit-transform: rotateY(-90deg) translateZ(129.2px) rotateX(159.095deg);
+          transform: rotateY(-90deg) translateZ(129.2px) rotateX(159.095deg);
 }
 
 .ikosaeder .side-7 {
-  transform: rotateY(-90deg) translateZ(-129.2px) rotateX(-20.905deg);
+  -webkit-transform: rotateY(-90deg) translateZ(-129.2px) rotateX(-20.905deg);
+          transform: rotateY(-90deg) translateZ(-129.2px) rotateX(-20.905deg);
 }
 
 .ikosaeder .side-8 {
-  transform: rotateY(-90deg) translateZ(-129.2px) rotateX(-159.095deg);
+  -webkit-transform: rotateY(-90deg) translateZ(-129.2px) rotateX(-159.095deg);
+          transform: rotateY(-90deg) translateZ(-129.2px) rotateX(-159.095deg);
 }
 
 .ikosaeder .side-9 {
-  transform: translateY(129.2px) rotateX(69.095deg);
+  -webkit-transform: translateY(129.2px) rotateX(69.095deg);
+          transform: translateY(129.2px) rotateX(69.095deg);
 }
 
 .ikosaeder .side-10 {
-  transform: translateY(129.2px) rotateX(-69.095deg);
+  -webkit-transform: translateY(129.2px) rotateX(-69.095deg);
+          transform: translateY(129.2px) rotateX(-69.095deg);
 }
 
 .ikosaeder .side-11 {
-  transform: translateY(-129.2px) rotateX(110.905deg);
+  -webkit-transform: translateY(-129.2px) rotateX(110.905deg);
+          transform: translateY(-129.2px) rotateX(110.905deg);
 }
 
 .ikosaeder .side-12 {
-  transform: translateY(-129.2px) rotateX(-110.905deg);
+  -webkit-transform: translateY(-129.2px) rotateX(-110.905deg);
+          transform: translateY(-129.2px) rotateX(-110.905deg);
 }
 
 .ikosaeder .side-13 {
   border-width: 138.56px 80px 0 80px;
-  transform: translateY(-129.2px) translateX(80px) rotateX(-135deg) rotateY(-35.264deg) rotateZ(-8deg);
+  -webkit-transform: translateY(-129.2px) translateX(80px) rotateX(-135deg) rotateY(-35.264deg) rotateZ(-8deg);
+          transform: translateY(-129.2px) translateX(80px) rotateX(-135deg) rotateY(-35.264deg) rotateZ(-8deg);
 }
 
 .ikosaeder .side-14 {
   border-width: 138.56px 80px 0 80px;
-  transform: translateY(-129.2px) translateX(80px) rotateX(135deg) rotateY(35.264deg) rotateZ(-8deg);
+  -webkit-transform: translateY(-129.2px) translateX(80px) rotateX(135deg) rotateY(35.264deg) rotateZ(-8deg);
+          transform: translateY(-129.2px) translateX(80px) rotateX(135deg) rotateY(35.264deg) rotateZ(-8deg);
 }
 
 .ikosaeder .side-15 {
   border-width: 138.56px 80px 0 80px;
-  transform: translateY(-129.2px) translateX(-80px) rotateX(-135deg) rotateY(35.264deg) rotateZ(8deg);
+  -webkit-transform: translateY(-129.2px) translateX(-80px) rotateX(-135deg) rotateY(35.264deg) rotateZ(8deg);
+          transform: translateY(-129.2px) translateX(-80px) rotateX(-135deg) rotateY(35.264deg) rotateZ(8deg);
 }
 
 .ikosaeder .side-16 {
   border-width: 138.56px 80px 0 80px;
-  transform: translateY(-129.2px) translateX(-80px) rotateX(135deg) rotateY(-35.264deg) rotateZ(8deg);
+  -webkit-transform: translateY(-129.2px) translateX(-80px) rotateX(135deg) rotateY(-35.264deg) rotateZ(8deg);
+          transform: translateY(-129.2px) translateX(-80px) rotateX(135deg) rotateY(-35.264deg) rotateZ(8deg);
 }
 
 .ikosaeder .side-17 {
   border-width: 138.56px 80px 0 80px;
-  transform: translateY(129.2px) translateX(80px) rotateX(45deg) rotateY(-35.264deg) rotateZ(-8deg);
+  -webkit-transform: translateY(129.2px) translateX(80px) rotateX(45deg) rotateY(-35.264deg) rotateZ(-8deg);
+          transform: translateY(129.2px) translateX(80px) rotateX(45deg) rotateY(-35.264deg) rotateZ(-8deg);
 }
 
 .ikosaeder .side-18 {
   border-width: 138.56px 80px 0 80px;
-  transform: translateY(129.2px) translateX(80px) rotateX(-45deg) rotateY(35.264deg) rotateZ(-8deg);
+  -webkit-transform: translateY(129.2px) translateX(80px) rotateX(-45deg) rotateY(35.264deg) rotateZ(-8deg);
+          transform: translateY(129.2px) translateX(80px) rotateX(-45deg) rotateY(35.264deg) rotateZ(-8deg);
 }
 
 .ikosaeder .side-19 {
   border-width: 138.56px 80px 0 80px;
-  transform: translateY(129.2px) translateX(-80px) rotateX(45deg) rotateY(35.264deg) rotateZ(8deg);
+  -webkit-transform: translateY(129.2px) translateX(-80px) rotateX(45deg) rotateY(35.264deg) rotateZ(8deg);
+          transform: translateY(129.2px) translateX(-80px) rotateX(45deg) rotateY(35.264deg) rotateZ(8deg);
 }
 
 .ikosaeder .side-20 {
   border-width: 138.56px 80px 0 80px;
-  transform: translateY(129.2px) translateX(-80px) rotateX(-45deg) rotateY(-35.264deg) rotateZ(8deg);
+  -webkit-transform: translateY(129.2px) translateX(-80px) rotateX(-45deg) rotateY(-35.264deg) rotateZ(8deg);
+          transform: translateY(129.2px) translateX(-80px) rotateX(-45deg) rotateY(-35.264deg) rotateZ(8deg);
 }
 
 .ikosaeder .side-2 {

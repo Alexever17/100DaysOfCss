@@ -8,7 +8,8 @@
   margin-top: -200px;
   margin-left: -200px;
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.13);
   overflow: hidden;
   background: #f39c12;
   color: #fff;
@@ -53,7 +54,8 @@
 
 .carousel .change_outer .change_inner {
   position: relative;
-  animation: rotate 8s ease-in-out infinite;
+  -webkit-animation: rotate 8s ease-in-out infinite;
+          animation: rotate 8s ease-in-out infinite;
 }
 
 .carousel .change_outer .element {
@@ -62,21 +64,49 @@
   text-shadow: 2px 2px 2px #e67e22;
 }
 
-@keyframes rotate {
+@-webkit-keyframes rotate {
   0%, 20% {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
   25%, 45% {
-    transform: translateY(-45px);
+    -webkit-transform: translateY(-45px);
+            transform: translateY(-45px);
   }
   50%, 70% {
-    transform: translateY(-90px);
+    -webkit-transform: translateY(-90px);
+            transform: translateY(-90px);
   }
   75%, 95% {
-    transform: translateY(-135px);
+    -webkit-transform: translateY(-135px);
+            transform: translateY(-135px);
   }
   100% {
-    transform: translateY(-180px);
+    -webkit-transform: translateY(-180px);
+            transform: translateY(-180px);
+  }
+}
+
+@keyframes rotate {
+  0%, 20% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25%, 45% {
+    -webkit-transform: translateY(-45px);
+            transform: translateY(-45px);
+  }
+  50%, 70% {
+    -webkit-transform: translateY(-90px);
+            transform: translateY(-90px);
+  }
+  75%, 95% {
+    -webkit-transform: translateY(-135px);
+            transform: translateY(-135px);
+  }
+  100% {
+    -webkit-transform: translateY(-180px);
+            transform: translateY(-180px);
   }
 }
 /*# sourceMappingURL=style.css.map */

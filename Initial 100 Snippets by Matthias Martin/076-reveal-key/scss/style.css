@@ -8,7 +8,8 @@
   margin-top: -200px;
   margin-left: -200px;
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   background: #34495E;
   color: #fff;
@@ -21,35 +22,46 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .hiddenKey {
   width: 220px;
   height: 50px;
-  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.3);
-  perspective: 250px;
+  -webkit-box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.3);
+  -webkit-perspective: 250px;
+          perspective: 250px;
 }
 
 .hiddenKey .inputWrapper {
   position: absolute;
   z-index: 2;
-  transform-style: preserve-3d;
-  transform-origin: 50% 0;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform-origin: 50% 0;
+          transform-origin: 50% 0;
+  -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
 }
 
 .hiddenKey .inputWrapper.valid {
-  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
 }
 
 .hiddenKey .inputWrapper.valid ~ .keyWrapper {
-  box-shadow: 2px -50px 8px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 2px -50px 8px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 2px -50px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
 .hiddenKey .inputWrapper .input {
-  box-sizing: border-box;
-  appearance: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   border: none;
   border-radius: 0;
   outline: none;
@@ -61,7 +73,8 @@
   font-size: 16px;
   color: #34495E;
   text-align: center;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
   z-index: 2;
 }
 
@@ -76,8 +89,10 @@
   text-align: center;
   line-height: 50px;
   background: #fff;
-  backface-visibility: hidden;
-  transform: rotateX(-180deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform: rotateX(-180deg);
+          transform: rotateX(-180deg);
 }
 
 .hiddenKey .keyWrapper {
@@ -88,7 +103,9 @@
   font-size: 16px;
   line-height: 50px;
   text-align: center;
+  -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
-  box-shadow: 2px 0px 8px 0 transparent;
+  -webkit-box-shadow: 2px 0px 8px 0 transparent;
+          box-shadow: 2px 0px 8px 0 transparent;
 }
 /*# sourceMappingURL=style.css.map */

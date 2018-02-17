@@ -7,7 +7,8 @@
   margin-top: -200px;
   margin-left: -200px;
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.25);
   overflow: hidden;
   background: #9B59B6;
   color: #fff;
@@ -24,7 +25,8 @@
   left: 175px;
   background: #fff;
   border-radius: 50%;
-  animation: ball 2s ease-in-out infinite;
+  -webkit-animation: ball 2s ease-in-out infinite;
+          animation: ball 2s ease-in-out infinite;
 }
 
 .ball .blur {
@@ -39,112 +41,239 @@
 
 .ball .blur-1 {
   opacity: 0.9;
-  animation: blur-1 2s ease-in-out infinite;
+  -webkit-animation: blur-1 2s ease-in-out infinite;
+          animation: blur-1 2s ease-in-out infinite;
 }
 
 .ball .blur-2 {
   opacity: 0.8;
-  animation: blur-2 2s ease-in-out infinite;
+  -webkit-animation: blur-2 2s ease-in-out infinite;
+          animation: blur-2 2s ease-in-out infinite;
 }
 
 .ball .blur-3 {
   opacity: 0.7;
-  animation: blur-3 2s ease-in-out infinite;
+  -webkit-animation: blur-3 2s ease-in-out infinite;
+          animation: blur-3 2s ease-in-out infinite;
 }
 
 .ball .blur-4 {
   opacity: 0.6;
-  animation: blur-4 2s ease-in-out infinite;
+  -webkit-animation: blur-4 2s ease-in-out infinite;
+          animation: blur-4 2s ease-in-out infinite;
 }
 
 .ball .blur-5 {
   opacity: 0.5;
-  animation: blur-5 2s ease-in-out infinite;
+  -webkit-animation: blur-5 2s ease-in-out infinite;
+          animation: blur-5 2s ease-in-out infinite;
 }
 
 .ball .blur-6 {
   opacity: 0.4;
-  animation: blur-6 2s ease-in-out infinite;
+  -webkit-animation: blur-6 2s ease-in-out infinite;
+          animation: blur-6 2s ease-in-out infinite;
+}
+
+@-webkit-keyframes ball {
+  0%, 100% {
+    -webkit-transform: translateX(-150px);
+            transform: translateX(-150px);
+  }
+  50% {
+    -webkit-transform: translateX(150px);
+            transform: translateX(150px);
+  }
 }
 
 @keyframes ball {
   0%, 100% {
-    transform: translateX(-150px);
+    -webkit-transform: translateX(-150px);
+            transform: translateX(-150px);
   }
   50% {
-    transform: translateX(150px);
+    -webkit-transform: translateX(150px);
+            transform: translateX(150px);
+  }
+}
+
+@-webkit-keyframes blur-1 {
+  0%, 50%, 100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  25% {
+    -webkit-transform: translateX(-7px);
+            transform: translateX(-7px);
+  }
+  75% {
+    -webkit-transform: translateX(7px);
+            transform: translateX(7px);
   }
 }
 
 @keyframes blur-1 {
   0%, 50%, 100% {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
   25% {
-    transform: translateX(-7px);
+    -webkit-transform: translateX(-7px);
+            transform: translateX(-7px);
   }
   75% {
-    transform: translateX(7px);
+    -webkit-transform: translateX(7px);
+            transform: translateX(7px);
+  }
+}
+
+@-webkit-keyframes blur-2 {
+  0%, 50%, 100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  25% {
+    -webkit-transform: translateX(-14px);
+            transform: translateX(-14px);
+  }
+  75% {
+    -webkit-transform: translateX(14px);
+            transform: translateX(14px);
   }
 }
 
 @keyframes blur-2 {
   0%, 50%, 100% {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
   25% {
-    transform: translateX(-14px);
+    -webkit-transform: translateX(-14px);
+            transform: translateX(-14px);
   }
   75% {
-    transform: translateX(14px);
+    -webkit-transform: translateX(14px);
+            transform: translateX(14px);
+  }
+}
+
+@-webkit-keyframes blur-3 {
+  0%, 50%, 100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  25% {
+    -webkit-transform: translateX(-21px);
+            transform: translateX(-21px);
+  }
+  75% {
+    -webkit-transform: translateX(21px);
+            transform: translateX(21px);
   }
 }
 
 @keyframes blur-3 {
   0%, 50%, 100% {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
   25% {
-    transform: translateX(-21px);
+    -webkit-transform: translateX(-21px);
+            transform: translateX(-21px);
   }
   75% {
-    transform: translateX(21px);
+    -webkit-transform: translateX(21px);
+            transform: translateX(21px);
+  }
+}
+
+@-webkit-keyframes blur-4 {
+  0%, 50%, 100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  25% {
+    -webkit-transform: translateX(-28px);
+            transform: translateX(-28px);
+  }
+  75% {
+    -webkit-transform: translateX(28px);
+            transform: translateX(28px);
   }
 }
 
 @keyframes blur-4 {
   0%, 50%, 100% {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
   25% {
-    transform: translateX(-28px);
+    -webkit-transform: translateX(-28px);
+            transform: translateX(-28px);
   }
   75% {
-    transform: translateX(28px);
+    -webkit-transform: translateX(28px);
+            transform: translateX(28px);
+  }
+}
+
+@-webkit-keyframes blur-5 {
+  0%, 50%, 100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  25% {
+    -webkit-transform: translateX(-35px);
+            transform: translateX(-35px);
+  }
+  75% {
+    -webkit-transform: translateX(35px);
+            transform: translateX(35px);
   }
 }
 
 @keyframes blur-5 {
   0%, 50%, 100% {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
   25% {
-    transform: translateX(-35px);
+    -webkit-transform: translateX(-35px);
+            transform: translateX(-35px);
   }
   75% {
-    transform: translateX(35px);
+    -webkit-transform: translateX(35px);
+            transform: translateX(35px);
+  }
+}
+
+@-webkit-keyframes blur-6 {
+  0%, 50%, 100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  25% {
+    -webkit-transform: translateX(-42px);
+            transform: translateX(-42px);
+  }
+  75% {
+    -webkit-transform: translateX(42px);
+            transform: translateX(42px);
   }
 }
 
 @keyframes blur-6 {
   0%, 50%, 100% {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
   25% {
-    transform: translateX(-42px);
+    -webkit-transform: translateX(-42px);
+            transform: translateX(-42px);
   }
   75% {
-    transform: translateX(42px);
+    -webkit-transform: translateX(42px);
+            transform: translateX(42px);
   }
 }
 /*# sourceMappingURL=style.css.map */

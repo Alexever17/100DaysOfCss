@@ -22,8 +22,10 @@ html, body {
   height: 10vw;
   background: #daeacc;
   border-radius: 50%;
-  animation-fill-mode: both;
-  animation: jump0 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation: jump0 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+          animation: jump0 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
 }
 
 .dot-1 {
@@ -35,8 +37,10 @@ html, body {
   height: 15vw;
   background: #c0dba8;
   border-radius: 50%;
-  animation-fill-mode: both;
-  animation: jump1 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation: jump1 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+          animation: jump1 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
 }
 
 .dot-2 {
@@ -48,8 +52,10 @@ html, body {
   height: 20vw;
   background: #a6cd83;
   border-radius: 50%;
-  animation-fill-mode: both;
-  animation: jump2 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation: jump2 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+          animation: jump2 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
 }
 
 .dot-3 {
@@ -61,51 +67,129 @@ html, body {
   height: 25vw;
   background: #8CBE5F;
   border-radius: 50%;
-  animation-fill-mode: both;
-  animation: jump3 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation: jump3 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+          animation: jump3 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+}
+
+@-webkit-keyframes jump0 {
+  0%, 80% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+  }
 }
 
 @keyframes jump0 {
   0%, 80% {
-    transform: scale(0);
-    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
   }
   100% {
-    transform: scale(1);
-    box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+  }
+}
+
+@-webkit-keyframes jump1 {
+  0%, 60% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
   }
 }
 
 @keyframes jump1 {
   0%, 60% {
-    transform: scale(0);
-    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
   }
   100% {
-    transform: scale(1);
-    box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+  }
+}
+
+@-webkit-keyframes jump2 {
+  0%, 40% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
   }
 }
 
 @keyframes jump2 {
   0%, 40% {
-    transform: scale(0);
-    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
   }
   100% {
-    transform: scale(1);
-    box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+  }
+}
+
+@-webkit-keyframes jump3 {
+  0%, 20% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
   }
 }
 
 @keyframes jump3 {
   0%, 20% {
-    transform: scale(0);
-    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
   }
   100% {
-    transform: scale(1);
-    box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
   }
 }
 /*# sourceMappingURL=style.css.map */

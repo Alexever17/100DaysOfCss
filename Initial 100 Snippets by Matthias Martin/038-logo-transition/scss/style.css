@@ -8,7 +8,8 @@
   margin-top: -200px;
   margin-left: -200px;
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   background: #9B59B6;
   color: #fff;
@@ -33,17 +34,23 @@
 }
 
 .logo.small {
-  transform: scale(0);
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all .5s ease-in;
   transition: all .5s ease-in;
 }
 
 .logo.normal {
-  transform: scale(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all .5s ease-out .3s;
   transition: all .5s ease-out .3s;
 }
 
 .logo.big {
-  transform: scale(10);
+  -webkit-transform: scale(10);
+          transform: scale(10);
+  -webkit-transition: all .5s ease-in;
   transition: all .5s ease-in;
 }
 /*# sourceMappingURL=style.css.map */

@@ -7,7 +7,8 @@
   margin-top: -200px;
   margin-left: -200px;
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -27,7 +28,8 @@ input[type="radio"] {
 }
 
 .circle {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   position: absolute;
   z-index: 5;
   top: 175px;
@@ -56,19 +58,23 @@ input[type="radio"] {
   border-radius: 50%;
   top: 180px;
   left: 120px;
+  -webkit-transition: all 1s ease;
   transition: all 1s ease;
 }
 
 #check-1:checked ~ .active {
-  transform: translateX(0px);
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 
 #check-2:checked ~ .active {
-  transform: translateX(60px);
+  -webkit-transform: translateX(60px);
+          transform: translateX(60px);
 }
 
 #check-3:checked ~ .active {
-  transform: translateX(120px);
+  -webkit-transform: translateX(120px);
+          transform: translateX(120px);
 }
 
 .bg {
@@ -80,19 +86,24 @@ input[type="radio"] {
   background: #3498db;
   border-left: 400px solid #9b59b6;
   border-right: 400px solid #1abc9c;
+  -webkit-transition: all 1s ease;
   transition: all 1s ease;
-  transform: translateX(0px);
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 
 #check-1:checked ~ .bg {
-  transform: translateX(0px);
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 
 #check-2:checked ~ .bg {
-  transform: translateX(-400px);
+  -webkit-transform: translateX(-400px);
+          transform: translateX(-400px);
 }
 
 #check-3:checked ~ .bg {
-  transform: translateX(-800px);
+  -webkit-transform: translateX(-800px);
+          transform: translateX(-800px);
 }
 /*# sourceMappingURL=style.css.map */

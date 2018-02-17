@@ -7,7 +7,8 @@
   margin-top: -200px;
   margin-left: -200px;
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   background: #34495e;
   color: #fff;
@@ -20,25 +21,32 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  perspective: 500px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-perspective: 500px;
+          perspective: 500px;
 }
 
 .loader {
   width: 120px;
   height: 120px;
-  transform-style: preserve-3d;
-  transform: rotateX(-25deg) rotateY(45deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: rotateX(-25deg) rotateY(45deg);
+          transform: rotateX(-25deg) rotateY(45deg);
+  -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   cursor: pointer;
 }
 
 .loader:hover {
-  transform: rotateX(-25deg) rotateY(45deg) translateY(-15px);
+  -webkit-transform: rotateX(-25deg) rotateY(45deg) translateY(-15px);
+          transform: rotateX(-25deg) rotateY(45deg) translateY(-15px);
 }
 
 .loader:hover .bottom {
-  box-shadow: -22px -22px 30px 0 rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: -22px -22px 30px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: -22px -22px 30px 0 rgba(0, 0, 0, 0.4);
 }
 
 .loader .plane {
@@ -51,14 +59,18 @@
 }
 
 .loader .bottom {
-  transform: rotateX(-90deg) translateZ(60px);
+  -webkit-transform: rotateX(-90deg) translateZ(60px);
+          transform: rotateX(-90deg) translateZ(60px);
   background: rgba(46, 204, 113, 0.8);
-  box-shadow: -8px -8px 10px 0 rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: -8px -8px 10px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: -8px -8px 10px 0 rgba(0, 0, 0, 0.4);
+  -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
 }
 
 .loader .left {
-  transform: rotateY(-90deg) translateZ(60px);
+  -webkit-transform: rotateY(-90deg) translateZ(60px);
+          transform: rotateY(-90deg) translateZ(60px);
 }
 
 .loader .left:before {
@@ -70,12 +82,15 @@
   right: 0;
   bottom: 0;
   background: rgba(46, 204, 113, 0.8);
-  transform-origin: 50% 100%;
-  animation: fill 4s ease-in-out infinite alternate;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+  -webkit-animation: fill 4s ease-in-out infinite alternate;
+          animation: fill 4s ease-in-out infinite alternate;
 }
 
 .loader .right {
-  transform: rotateY(90deg) translateZ(60px);
+  -webkit-transform: rotateY(90deg) translateZ(60px);
+          transform: rotateY(90deg) translateZ(60px);
 }
 
 .loader .right:before {
@@ -87,12 +102,15 @@
   right: 0;
   bottom: 0;
   background: rgba(46, 204, 113, 0.8);
-  transform-origin: 50% 100%;
-  animation: fill 4s ease-in-out infinite alternate;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+  -webkit-animation: fill 4s ease-in-out infinite alternate;
+          animation: fill 4s ease-in-out infinite alternate;
 }
 
 .loader .back {
-  transform: rotateY(180deg) translateZ(60px);
+  -webkit-transform: rotateY(180deg) translateZ(60px);
+          transform: rotateY(180deg) translateZ(60px);
 }
 
 .loader .back:before {
@@ -104,12 +122,15 @@
   right: 0;
   bottom: 0;
   background: rgba(46, 204, 113, 0.8);
-  transform-origin: 50% 100%;
-  animation: fill 4s ease-in-out infinite alternate;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+  -webkit-animation: fill 4s ease-in-out infinite alternate;
+          animation: fill 4s ease-in-out infinite alternate;
 }
 
 .loader .front {
-  transform: rotateY(0deg) translateZ(60px);
+  -webkit-transform: rotateY(0deg) translateZ(60px);
+          transform: rotateY(0deg) translateZ(60px);
 }
 
 .loader .front:before {
@@ -121,26 +142,52 @@
   right: 0;
   bottom: 0;
   background: rgba(46, 204, 113, 0.8);
-  transform-origin: 50% 100%;
-  animation: fill 4s ease-in-out infinite alternate;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+  -webkit-animation: fill 4s ease-in-out infinite alternate;
+          animation: fill 4s ease-in-out infinite alternate;
 }
 
 .loader .top {
-  transform: rotateX(90deg) translateZ(60px);
+  -webkit-transform: rotateX(90deg) translateZ(60px);
+          transform: rotateX(90deg) translateZ(60px);
   opacity: .5;
 }
 
 .loader .fill-top {
   background: rgba(46, 204, 113, 0.8);
-  animation: fill-top 4s ease-in-out infinite alternate;
+  -webkit-animation: fill-top 4s ease-in-out infinite alternate;
+          animation: fill-top 4s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes fill {
+  0%, 25% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+  75%, 100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
 }
 
 @keyframes fill {
   0%, 25% {
-    transform: scaleY(0);
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
   }
   75%, 100% {
-    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+
+@-webkit-keyframes color-bottom {
+  0% {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  25%, 100% {
+    background: rgba(46, 204, 113, 0.8);
   }
 }
 
@@ -149,6 +196,15 @@
     background: rgba(0, 0, 0, 0.1);
   }
   25%, 100% {
+    background: rgba(46, 204, 113, 0.8);
+  }
+}
+
+@-webkit-keyframes color-top {
+  0%, 25% {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  75%, 100% {
     background: rgba(46, 204, 113, 0.8);
   }
 }
@@ -162,12 +218,25 @@
   }
 }
 
-@keyframes fill-top {
+@-webkit-keyframes fill-top {
   0%, 25% {
-    transform: rotateX(90deg) translateZ(-60px);
+    -webkit-transform: rotateX(90deg) translateZ(-60px);
+            transform: rotateX(90deg) translateZ(-60px);
   }
   75%, 100% {
-    transform: rotateX(90deg) translateZ(59px);
+    -webkit-transform: rotateX(90deg) translateZ(59px);
+            transform: rotateX(90deg) translateZ(59px);
+  }
+}
+
+@keyframes fill-top {
+  0%, 25% {
+    -webkit-transform: rotateX(90deg) translateZ(-60px);
+            transform: rotateX(90deg) translateZ(-60px);
+  }
+  75%, 100% {
+    -webkit-transform: rotateX(90deg) translateZ(59px);
+            transform: rotateX(90deg) translateZ(59px);
   }
 }
 /*# sourceMappingURL=style.css.map */

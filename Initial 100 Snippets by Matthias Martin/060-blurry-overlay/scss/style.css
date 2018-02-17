@@ -8,7 +8,8 @@
   margin-top: -200px;
   margin-left: -200px;
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   background: #34495e;
   color: #fff;
@@ -18,7 +19,8 @@
 }
 
 .trigger {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   position: absolute;
   width: 400px;
   height: 10px;
@@ -36,7 +38,9 @@
   left: 0;
   background: #e67e22;
   overflow: hidden;
-  transform-origin: 50% 0%;
+  -webkit-transform-origin: 50% 0%;
+          transform-origin: 50% 0%;
+  -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
 
@@ -57,6 +61,7 @@
   z-index: 10;
   color: transparent;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
 
@@ -66,6 +71,7 @@
 
 .trigger-0:hover ~ .plane {
   height: 0px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -75,6 +81,7 @@
 
 .trigger-1:hover ~ .plane {
   height: 2px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -84,6 +91,7 @@
 
 .trigger-2:hover ~ .plane {
   height: 4px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -93,6 +101,7 @@
 
 .trigger-3:hover ~ .plane {
   height: 6px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -102,6 +111,7 @@
 
 .trigger-4:hover ~ .plane {
   height: 8px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -111,6 +121,7 @@
 
 .trigger-5:hover ~ .plane {
   height: 10px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -120,6 +131,7 @@
 
 .trigger-6:hover ~ .plane {
   height: 12px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -129,6 +141,7 @@
 
 .trigger-7:hover ~ .plane {
   height: 14px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -138,6 +151,7 @@
 
 .trigger-8:hover ~ .plane {
   height: 16px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -147,6 +161,7 @@
 
 .trigger-9:hover ~ .plane {
   height: 18px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -156,6 +171,7 @@
 
 .trigger-10:hover ~ .plane {
   height: 20px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -165,6 +181,7 @@
 
 .trigger-11:hover ~ .plane {
   height: 22px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -174,6 +191,7 @@
 
 .trigger-12:hover ~ .plane {
   height: 24px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -183,6 +201,7 @@
 
 .trigger-13:hover ~ .plane {
   height: 26px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -192,6 +211,7 @@
 
 .trigger-14:hover ~ .plane {
   height: 28px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -201,6 +221,7 @@
 
 .trigger-15:hover ~ .plane {
   height: 30px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -210,6 +231,7 @@
 
 .trigger-16:hover ~ .plane {
   height: 32px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -219,6 +241,7 @@
 
 .trigger-17:hover ~ .plane {
   height: 34px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -228,6 +251,7 @@
 
 .trigger-18:hover ~ .plane {
   height: 36px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -237,6 +261,7 @@
 
 .trigger-19:hover ~ .plane {
   height: 38px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -246,6 +271,7 @@
 
 .trigger-20:hover ~ .plane {
   height: 40px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -255,6 +281,7 @@
 
 .trigger-21:hover ~ .plane {
   height: 42px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -264,6 +291,7 @@
 
 .trigger-22:hover ~ .plane {
   height: 44px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -273,6 +301,7 @@
 
 .trigger-23:hover ~ .plane {
   height: 46px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -282,6 +311,7 @@
 
 .trigger-24:hover ~ .plane {
   height: 48px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -291,6 +321,7 @@
 
 .trigger-25:hover ~ .plane {
   height: 50px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -300,6 +331,7 @@
 
 .trigger-26:hover ~ .plane {
   height: 52px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -309,6 +341,7 @@
 
 .trigger-27:hover ~ .plane {
   height: 54px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -318,6 +351,7 @@
 
 .trigger-28:hover ~ .plane {
   height: 56px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -327,6 +361,7 @@
 
 .trigger-29:hover ~ .plane {
   height: 58px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -336,6 +371,7 @@
 
 .trigger-30:hover ~ .plane {
   height: 60px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -345,6 +381,7 @@
 
 .trigger-31:hover ~ .plane {
   height: 62px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -354,6 +391,7 @@
 
 .trigger-32:hover ~ .plane {
   height: 64px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -363,6 +401,7 @@
 
 .trigger-33:hover ~ .plane {
   height: 66px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -372,6 +411,7 @@
 
 .trigger-34:hover ~ .plane {
   height: 68px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -381,6 +421,7 @@
 
 .trigger-35:hover ~ .plane {
   height: 70px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -390,6 +431,7 @@
 
 .trigger-36:hover ~ .plane {
   height: 72px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -399,6 +441,7 @@
 
 .trigger-37:hover ~ .plane {
   height: 74px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -408,6 +451,7 @@
 
 .trigger-38:hover ~ .plane {
   height: 76px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -417,6 +461,7 @@
 
 .trigger-39:hover ~ .plane {
   height: 78px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -426,6 +471,7 @@
 
 .trigger-40:hover ~ .plane {
   height: 80px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -435,6 +481,7 @@
 
 .trigger-41:hover ~ .plane {
   height: 82px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -444,6 +491,7 @@
 
 .trigger-42:hover ~ .plane {
   height: 84px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -453,6 +501,7 @@
 
 .trigger-43:hover ~ .plane {
   height: 86px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -462,6 +511,7 @@
 
 .trigger-44:hover ~ .plane {
   height: 88px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -471,6 +521,7 @@
 
 .trigger-45:hover ~ .plane {
   height: 90px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -480,6 +531,7 @@
 
 .trigger-46:hover ~ .plane {
   height: 92px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -489,6 +541,7 @@
 
 .trigger-47:hover ~ .plane {
   height: 94px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -498,6 +551,7 @@
 
 .trigger-48:hover ~ .plane {
   height: 96px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -507,6 +561,7 @@
 
 .trigger-49:hover ~ .plane {
   height: 98px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -516,6 +571,7 @@
 
 .trigger-50:hover ~ .plane {
   height: 100px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -525,6 +581,7 @@
 
 .trigger-51:hover ~ .plane {
   height: 102px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -534,6 +591,7 @@
 
 .trigger-52:hover ~ .plane {
   height: 104px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -543,6 +601,7 @@
 
 .trigger-53:hover ~ .plane {
   height: 106px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -552,6 +611,7 @@
 
 .trigger-54:hover ~ .plane {
   height: 108px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -561,6 +621,7 @@
 
 .trigger-55:hover ~ .plane {
   height: 110px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -570,6 +631,7 @@
 
 .trigger-56:hover ~ .plane {
   height: 112px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -579,6 +641,7 @@
 
 .trigger-57:hover ~ .plane {
   height: 114px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -588,6 +651,7 @@
 
 .trigger-58:hover ~ .plane {
   height: 116px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -597,6 +661,7 @@
 
 .trigger-59:hover ~ .plane {
   height: 118px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -606,6 +671,7 @@
 
 .trigger-60:hover ~ .plane {
   height: 120px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -615,6 +681,7 @@
 
 .trigger-61:hover ~ .plane {
   height: 122px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -624,6 +691,7 @@
 
 .trigger-62:hover ~ .plane {
   height: 124px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -633,6 +701,7 @@
 
 .trigger-63:hover ~ .plane {
   height: 126px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -642,6 +711,7 @@
 
 .trigger-64:hover ~ .plane {
   height: 128px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -651,6 +721,7 @@
 
 .trigger-65:hover ~ .plane {
   height: 130px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -660,6 +731,7 @@
 
 .trigger-66:hover ~ .plane {
   height: 132px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -669,6 +741,7 @@
 
 .trigger-67:hover ~ .plane {
   height: 134px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -678,6 +751,7 @@
 
 .trigger-68:hover ~ .plane {
   height: 136px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -687,6 +761,7 @@
 
 .trigger-69:hover ~ .plane {
   height: 138px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -696,6 +771,7 @@
 
 .trigger-70:hover ~ .plane {
   height: 140px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -705,6 +781,7 @@
 
 .trigger-71:hover ~ .plane {
   height: 142px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -714,6 +791,7 @@
 
 .trigger-72:hover ~ .plane {
   height: 144px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -723,6 +801,7 @@
 
 .trigger-73:hover ~ .plane {
   height: 146px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -732,6 +811,7 @@
 
 .trigger-74:hover ~ .plane {
   height: 148px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -741,6 +821,7 @@
 
 .trigger-75:hover ~ .plane {
   height: 150px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -750,6 +831,7 @@
 
 .trigger-76:hover ~ .plane {
   height: 152px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -759,6 +841,7 @@
 
 .trigger-77:hover ~ .plane {
   height: 154px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -768,6 +851,7 @@
 
 .trigger-78:hover ~ .plane {
   height: 156px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -777,6 +861,7 @@
 
 .trigger-79:hover ~ .plane {
   height: 158px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -786,6 +871,7 @@
 
 .trigger-80:hover ~ .plane {
   height: 160px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -795,6 +881,7 @@
 
 .trigger-81:hover ~ .plane {
   height: 162px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -804,6 +891,7 @@
 
 .trigger-82:hover ~ .plane {
   height: 164px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -813,6 +901,7 @@
 
 .trigger-83:hover ~ .plane {
   height: 166px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -822,6 +911,7 @@
 
 .trigger-84:hover ~ .plane {
   height: 168px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -831,6 +921,7 @@
 
 .trigger-85:hover ~ .plane {
   height: 170px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -840,6 +931,7 @@
 
 .trigger-86:hover ~ .plane {
   height: 172px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -849,6 +941,7 @@
 
 .trigger-87:hover ~ .plane {
   height: 174px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -858,6 +951,7 @@
 
 .trigger-88:hover ~ .plane {
   height: 176px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -867,6 +961,7 @@
 
 .trigger-89:hover ~ .plane {
   height: 178px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -876,6 +971,7 @@
 
 .trigger-90:hover ~ .plane {
   height: 180px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -885,6 +981,7 @@
 
 .trigger-91:hover ~ .plane {
   height: 182px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -894,6 +991,7 @@
 
 .trigger-92:hover ~ .plane {
   height: 184px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -903,6 +1001,7 @@
 
 .trigger-93:hover ~ .plane {
   height: 186px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -912,6 +1011,7 @@
 
 .trigger-94:hover ~ .plane {
   height: 188px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -921,6 +1021,7 @@
 
 .trigger-95:hover ~ .plane {
   height: 190px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -930,6 +1031,7 @@
 
 .trigger-96:hover ~ .plane {
   height: 192px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -939,6 +1041,7 @@
 
 .trigger-97:hover ~ .plane {
   height: 194px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -948,6 +1051,7 @@
 
 .trigger-98:hover ~ .plane {
   height: 196px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -957,6 +1061,7 @@
 
 .trigger-99:hover ~ .plane {
   height: 198px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -966,6 +1071,7 @@
 
 .trigger-100:hover ~ .plane {
   height: 200px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -975,6 +1081,7 @@
 
 .trigger-101:hover ~ .plane {
   height: 202px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -984,6 +1091,7 @@
 
 .trigger-102:hover ~ .plane {
   height: 204px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -993,6 +1101,7 @@
 
 .trigger-103:hover ~ .plane {
   height: 206px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1002,6 +1111,7 @@
 
 .trigger-104:hover ~ .plane {
   height: 208px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1011,6 +1121,7 @@
 
 .trigger-105:hover ~ .plane {
   height: 210px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1020,6 +1131,7 @@
 
 .trigger-106:hover ~ .plane {
   height: 212px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1029,6 +1141,7 @@
 
 .trigger-107:hover ~ .plane {
   height: 214px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1038,6 +1151,7 @@
 
 .trigger-108:hover ~ .plane {
   height: 216px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1047,6 +1161,7 @@
 
 .trigger-109:hover ~ .plane {
   height: 218px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1056,6 +1171,7 @@
 
 .trigger-110:hover ~ .plane {
   height: 220px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1065,6 +1181,7 @@
 
 .trigger-111:hover ~ .plane {
   height: 222px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1074,6 +1191,7 @@
 
 .trigger-112:hover ~ .plane {
   height: 224px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1083,6 +1201,7 @@
 
 .trigger-113:hover ~ .plane {
   height: 226px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1092,6 +1211,7 @@
 
 .trigger-114:hover ~ .plane {
   height: 228px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1101,6 +1221,7 @@
 
 .trigger-115:hover ~ .plane {
   height: 230px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1110,6 +1231,7 @@
 
 .trigger-116:hover ~ .plane {
   height: 232px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1119,6 +1241,7 @@
 
 .trigger-117:hover ~ .plane {
   height: 234px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1128,6 +1251,7 @@
 
 .trigger-118:hover ~ .plane {
   height: 236px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1137,6 +1261,7 @@
 
 .trigger-119:hover ~ .plane {
   height: 238px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1146,6 +1271,7 @@
 
 .trigger-120:hover ~ .plane {
   height: 240px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1155,6 +1281,7 @@
 
 .trigger-121:hover ~ .plane {
   height: 242px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1164,6 +1291,7 @@
 
 .trigger-122:hover ~ .plane {
   height: 244px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1173,6 +1301,7 @@
 
 .trigger-123:hover ~ .plane {
   height: 246px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1182,6 +1311,7 @@
 
 .trigger-124:hover ~ .plane {
   height: 248px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1191,6 +1321,7 @@
 
 .trigger-125:hover ~ .plane {
   height: 250px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1200,6 +1331,7 @@
 
 .trigger-126:hover ~ .plane {
   height: 252px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1209,6 +1341,7 @@
 
 .trigger-127:hover ~ .plane {
   height: 254px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1218,6 +1351,7 @@
 
 .trigger-128:hover ~ .plane {
   height: 256px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1227,6 +1361,7 @@
 
 .trigger-129:hover ~ .plane {
   height: 258px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1236,6 +1371,7 @@
 
 .trigger-130:hover ~ .plane {
   height: 260px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1245,6 +1381,7 @@
 
 .trigger-131:hover ~ .plane {
   height: 262px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1254,6 +1391,7 @@
 
 .trigger-132:hover ~ .plane {
   height: 264px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1263,6 +1401,7 @@
 
 .trigger-133:hover ~ .plane {
   height: 266px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1272,6 +1411,7 @@
 
 .trigger-134:hover ~ .plane {
   height: 268px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1281,6 +1421,7 @@
 
 .trigger-135:hover ~ .plane {
   height: 270px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1290,6 +1431,7 @@
 
 .trigger-136:hover ~ .plane {
   height: 272px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1299,6 +1441,7 @@
 
 .trigger-137:hover ~ .plane {
   height: 274px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1308,6 +1451,7 @@
 
 .trigger-138:hover ~ .plane {
   height: 276px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1317,6 +1461,7 @@
 
 .trigger-139:hover ~ .plane {
   height: 278px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1326,6 +1471,7 @@
 
 .trigger-140:hover ~ .plane {
   height: 280px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1335,6 +1481,7 @@
 
 .trigger-141:hover ~ .plane {
   height: 282px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1344,6 +1491,7 @@
 
 .trigger-142:hover ~ .plane {
   height: 284px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1353,6 +1501,7 @@
 
 .trigger-143:hover ~ .plane {
   height: 286px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1362,6 +1511,7 @@
 
 .trigger-144:hover ~ .plane {
   height: 288px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1371,6 +1521,7 @@
 
 .trigger-145:hover ~ .plane {
   height: 290px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1380,6 +1531,7 @@
 
 .trigger-146:hover ~ .plane {
   height: 292px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1389,6 +1541,7 @@
 
 .trigger-147:hover ~ .plane {
   height: 294px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1398,6 +1551,7 @@
 
 .trigger-148:hover ~ .plane {
   height: 296px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1407,6 +1561,7 @@
 
 .trigger-149:hover ~ .plane {
   height: 298px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1416,6 +1571,7 @@
 
 .trigger-150:hover ~ .plane {
   height: 300px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1425,6 +1581,7 @@
 
 .trigger-151:hover ~ .plane {
   height: 302px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1434,6 +1591,7 @@
 
 .trigger-152:hover ~ .plane {
   height: 304px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1443,6 +1601,7 @@
 
 .trigger-153:hover ~ .plane {
   height: 306px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1452,6 +1611,7 @@
 
 .trigger-154:hover ~ .plane {
   height: 308px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1461,6 +1621,7 @@
 
 .trigger-155:hover ~ .plane {
   height: 310px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1470,6 +1631,7 @@
 
 .trigger-156:hover ~ .plane {
   height: 312px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1479,6 +1641,7 @@
 
 .trigger-157:hover ~ .plane {
   height: 314px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1488,6 +1651,7 @@
 
 .trigger-158:hover ~ .plane {
   height: 316px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1497,6 +1661,7 @@
 
 .trigger-159:hover ~ .plane {
   height: 318px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1506,6 +1671,7 @@
 
 .trigger-160:hover ~ .plane {
   height: 320px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1515,6 +1681,7 @@
 
 .trigger-161:hover ~ .plane {
   height: 322px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1524,6 +1691,7 @@
 
 .trigger-162:hover ~ .plane {
   height: 324px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1533,6 +1701,7 @@
 
 .trigger-163:hover ~ .plane {
   height: 326px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1542,6 +1711,7 @@
 
 .trigger-164:hover ~ .plane {
   height: 328px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1551,6 +1721,7 @@
 
 .trigger-165:hover ~ .plane {
   height: 330px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1560,6 +1731,7 @@
 
 .trigger-166:hover ~ .plane {
   height: 332px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1569,6 +1741,7 @@
 
 .trigger-167:hover ~ .plane {
   height: 334px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1578,6 +1751,7 @@
 
 .trigger-168:hover ~ .plane {
   height: 336px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1587,6 +1761,7 @@
 
 .trigger-169:hover ~ .plane {
   height: 338px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1596,6 +1771,7 @@
 
 .trigger-170:hover ~ .plane {
   height: 340px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1605,6 +1781,7 @@
 
 .trigger-171:hover ~ .plane {
   height: 342px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1614,6 +1791,7 @@
 
 .trigger-172:hover ~ .plane {
   height: 344px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1623,6 +1801,7 @@
 
 .trigger-173:hover ~ .plane {
   height: 346px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1632,6 +1811,7 @@
 
 .trigger-174:hover ~ .plane {
   height: 348px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1641,6 +1821,7 @@
 
 .trigger-175:hover ~ .plane {
   height: 350px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1650,6 +1831,7 @@
 
 .trigger-176:hover ~ .plane {
   height: 352px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1659,6 +1841,7 @@
 
 .trigger-177:hover ~ .plane {
   height: 354px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1668,6 +1851,7 @@
 
 .trigger-178:hover ~ .plane {
   height: 356px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1677,6 +1861,7 @@
 
 .trigger-179:hover ~ .plane {
   height: 358px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1686,6 +1871,7 @@
 
 .trigger-180:hover ~ .plane {
   height: 360px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1695,6 +1881,7 @@
 
 .trigger-181:hover ~ .plane {
   height: 362px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1704,6 +1891,7 @@
 
 .trigger-182:hover ~ .plane {
   height: 364px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1713,6 +1901,7 @@
 
 .trigger-183:hover ~ .plane {
   height: 366px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1722,6 +1911,7 @@
 
 .trigger-184:hover ~ .plane {
   height: 368px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1731,6 +1921,7 @@
 
 .trigger-185:hover ~ .plane {
   height: 370px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1740,6 +1931,7 @@
 
 .trigger-186:hover ~ .plane {
   height: 372px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1749,6 +1941,7 @@
 
 .trigger-187:hover ~ .plane {
   height: 374px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1758,6 +1951,7 @@
 
 .trigger-188:hover ~ .plane {
   height: 376px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1767,6 +1961,7 @@
 
 .trigger-189:hover ~ .plane {
   height: 378px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1776,6 +1971,7 @@
 
 .trigger-190:hover ~ .plane {
   height: 380px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1785,6 +1981,7 @@
 
 .trigger-191:hover ~ .plane {
   height: 382px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1794,6 +1991,7 @@
 
 .trigger-192:hover ~ .plane {
   height: 384px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1803,6 +2001,7 @@
 
 .trigger-193:hover ~ .plane {
   height: 386px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1812,6 +2011,7 @@
 
 .trigger-194:hover ~ .plane {
   height: 388px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1821,6 +2021,7 @@
 
 .trigger-195:hover ~ .plane {
   height: 390px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1830,6 +2031,7 @@
 
 .trigger-196:hover ~ .plane {
   height: 392px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1839,6 +2041,7 @@
 
 .trigger-197:hover ~ .plane {
   height: 394px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1848,6 +2051,7 @@
 
 .trigger-198:hover ~ .plane {
   height: 396px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1857,6 +2061,7 @@
 
 .trigger-199:hover ~ .plane {
   height: 398px;
+  -webkit-transition: initial;
   transition: initial;
 }
 
@@ -1866,6 +2071,7 @@
 
 .trigger-200:hover ~ .plane {
   height: 400px;
+  -webkit-transition: initial;
   transition: initial;
 }
 /*# sourceMappingURL=style.css.map */
